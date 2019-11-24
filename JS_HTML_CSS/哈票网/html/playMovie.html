@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>预告片播放</title>
+<style>
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/
+	
+}
+</style>
+<style>
+	.movie{
+		background:red;
+		width:1000px;
+		margin:0 auto;	
+	}
+</style>
+<script language="javascript">
+	function movie(){
+	var url=location.href; 
+	var tmp1=url.split("?")[1];
+	var movieName=tmp1.split("=")[1];
+ 	document.getElementById("movie").src="../video/"+movieName+".mp4";
+	}
+</script>
+</head>
+	
+<body onload="movie()">
+<div class="movie">
+	<video width="1000" height="600" controls="controls" autoplay="autoplay" id="movie">
+		  <source src="" type="video/mp4">
+		Your browser does not support the video tag.
+	</video>
+</div>
+</body>
+</html>

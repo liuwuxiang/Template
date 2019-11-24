@@ -1,0 +1,81 @@
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+	border:solid 1px #666;	
+	overflow: auto;
+}
+header{
+	width:1340px;
+	height:80px;
+	background-color:#C00;
+}
+header a{
+	text-decoration:none;	
+	color:#FFF;
+	font-weight:bold;
+	font-size:40px;
+	 font-family:"华文新魏";
+}
+.system{
+	width:auto;
+	height:50px;
+	float:left;
+	margin-left:200px;
+	margin-top:15px;
+}
+.zhuce1{
+	color:#999;
+	font-size:35px;	
+}
+footer{
+	width:auto;
+	height:100px;
+	background-color:#999;
+	text-align:center;	
+	padding:15px 0px 0px 0px;
+}
+.zhuce table tr td{
+	font-size:20px;
+	color:#999;
+}
+.zhuce a{
+	text-decoration:none;	
+}
+.zhuce{
+	float:left;	
+}
+.img{
+	margin-left:600px;
+	margin-top:45px;	
+}
+.img img{
+		text-align:center;
+		border: 2px solid #a1a1a1;
+		padding: 5px 5px;
+		background: #dddddd;
+		border-radius:30px;/* 	控制四角弧度 */
+		box-shadow:10px 10px 5px #888888;	/* 设置阴影 */	
+}
+article{
+	width:1000px;
+	height:auto;
+	text-align:center;
+	margin-left:300px;	
+}
+.text{
+	
+	text-align:left;
+}
+.input{
+	width:100%;
+	height:30px;	
+}
+.button{
+	width:200px;
+	background-color:#ED4447;
+	height:50px;
+	font-size:20px;
+	color:#FFF;	
+	border-radius:10px;/* 	控制四角弧度 */
+}

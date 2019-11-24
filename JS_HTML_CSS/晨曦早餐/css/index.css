@@ -1,0 +1,122 @@
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+	border:solid 1px #666;	
+	overflow: auto;
+}
+.logo{
+	width:1340px;
+	height:80px;
+	background-color:#C00;	
+}
+.logo a{
+	text-decoration:none;	
+	color:#FFF;
+	font-weight:bold;
+	font-size:40px;
+	 font-family:"华文新魏";	
+}
+.system{
+	width:auto;
+	height:50px;
+	float:left;
+	margin-left:200px;
+	margin-top:15px;
+}
+.header{
+	border:solid 1px #666;
+	overflow: auto;
+	height:55px;
+	width:auto;
+	background:#000;
+
+	border-bottom: 5px solid #D63B37;	
+}
+.header1{
+	float:left;
+	padding:15px 0px 0px 0px;
+}
+.header1 li{
+	list-style-type:none;
+	display:inline;
+	padding:0px 0px 0px 20px;
+}
+.login{
+	float:right;
+	padding:20px 15px 0px 15px;	
+}
+.login a{
+	text-decoration:none;	
+	font-weight:bold;
+	padding:10px;
+}
+.header1 a
+{
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:15px 15px 15px 15px;
+	
+}
+.header1 a:hover
+{
+	background-color:#F00;
+	background-position:left bottom;
+	color:#FFFF00;	
+}
+header{
+	width:auto;
+	height:auto;	
+	overflow: auto;
+
+}
+article{
+	border:solid 10px #CC0099;
+	width:auto;
+	height:auto;
+	clear:both;
+	overflow: auto;
+}
+.tishi1{
+	width:auto;
+	height:auto;
+	background:#0F6;
+	padding:10px;
+	margin-top:15px;
+}
+.tishi1 a{
+	text-decoration:none;	
+	font-weight:bold;
+	padding:10px;
+	letter-spacing:5px;
+}
+.table{
+	border:solid 1px #999999;	
+	text-align:center;
+	border-collapse:collapse;
+}
+.table img{
+	width:200px;	
+}
+.price{
+	color:#F36;
+	font-size:15px;	
+	text-align:left;
+}
+.yuanjia{
+	text-decoration:line-through;	
+	color:#F00;
+}
+hr{
+	margin-top:50px;	
+}
+footer{
+	width:auto;
+	height:100px;
+	background-color:#999;
+	text-align:center;	
+	padding:0px 0px 0px 0px;
+}

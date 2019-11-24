@@ -1,0 +1,104 @@
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/
+}
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+	overflow: auto;
+}
+header{
+	width:1340px;
+	height:80px;
+	background-color:#C00;
+}
+header a{
+	text-decoration:none;	
+	color:#FFF;
+	font-weight:bold;
+	font-size:40px;
+	 font-family:"华文新魏";
+}
+.system{
+	width:auto;
+	height:50px;
+	float:left;
+	margin-left:200px;
+	margin-top:15px;
+}
+.zhuce1{
+	color:#999;
+	font-size:35px;	
+}
+.zhuce table tr td{
+	font-size:20px;
+	color:#333;
+}
+.zhuce a{
+	text-decoration:none;	
+}
+.zhuce{
+	float:left;	
+	overflow: auto;
+	width:450px;
+}
+.img{
+	margin-left:600px;
+	margin-top:45px;	
+}
+.img img{
+		text-align:center;
+		border: 2px solid #a1a1a1;
+		padding: 5px 5px;
+		background: #dddddd;
+		border-radius:30px;/* 	控制四角弧度 */
+		box-shadow:10px 10px 5px #888888;	/* 设置阴影 */	
+}
+article{
+	width:1100px;
+	padding:0px 0px 50px 0px;
+	margin-top:50px;
+	text-align:center;
+	margin-left:200px;
+	overflow: auto;	
+}
+.text{
+	
+	text-align:left;
+}
+.input{
+	width:100%;
+	height:30px;	
+}
+.button{
+	width:200px;
+	background-color:#ED4447;
+	height:50px;
+	font-size:20px;
+	color:#FFF;	
+	border-radius:10px;/* 	控制四角弧度 */
+}
+.footer-nav li{
+	list-style-type:none;
+	display:inline;	
+	padding:0px 50px 0px 0px;
+}
+.footer-nav ul{
+	width:780px;
+	margin:0 auto;	
+}
+.footer-nav a{
+	text-decoration:none;	
+}
+.xinxi{
+	text-align:center;
+	margin-top:20px;
+	height:70px;	
+}
+.xinxi a{
+	font-weight:bold;
+	font-size:17px	
+}
+.footer{
+	clear:both;	
+}

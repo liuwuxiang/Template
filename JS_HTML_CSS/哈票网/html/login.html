@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link href="../css/login.css" rel="stylesheet" type="text/css"/>
+<script src="../js/login.js"></script>
+</head>
+<body onload="getUserStaetCookie()">
+<div class="main">
+    	<header>
+        	<div class="system">
+        	<a href="index.html">哈票网HaPiao</a>
+            </div>
+       </header>
+        
+      <article>
+        	<div class="img">
+        	<img src="../image/3.jpg" style="width:300px"/>
+            </div>
+             <div class="login" align="center" id="login">
+             <form onsubmit="return checkLogin(this)">
+            	<table>
+                	<tr>
+                    	<th align="left">登录名：</th>
+                    </tr>
+                    <tr>
+                    	<td><input type="text" name="name" class="text" id="name"></td>
+                    </tr>
+                    <tr>
+                    	<th align="left">登录密码：</th>
+                    </tr>
+                     <tr>
+                    	<td><input type="password" name="password" class="text" id="password"></td>
+                    </tr>
+                    <tr>
+                    	<td align="center">
+                        	<input type="submit" value="登录" class="button"/>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+            
+            <div class="state"  style="display:none" id="tishi">
+            <a>登录成功,点击哈票网返回主页购票去吧！</a>
+            </div>
+        </article>
+         
+          <!-- start footer -->
+       	<footer>
+        	<div class="footer-nav">
+        	<hr />
+            	<ul>
+                	<li><a href="aboutHP.html">关于哈票</a></li>
+                    <li><a href="cooperation.html">平台合作</a></li>
+                    <li><a href="service.html">客户服务</a></li>
+                    <li><a href="agreement1.html">网站服务协议</a></li>
+                    <li><a href="agreement2.html">会员服务协议</a></li>
+                    <li><a href="statment.html">免责申明</a></li>
+                </ul>
+            <hr />
+            </div>
+            <div class="xinxi">
+            	<a>客服电话：13390517636</a><br /><br />
+                <a> © 2014-2024 HaPiaoWang 版权所有</a>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </div>
+</body>
+</html>

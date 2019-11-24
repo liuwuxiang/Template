@@ -1,0 +1,189 @@
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/
+	margin:0;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+	border:solid 1px #666;
+}
+.header{
+	width:1340px;
+	height:70px;
+	overflow: auto;
+	background:red;
+}
+.logo{
+	width:80px;	
+	float:left;
+}
+.daohang{
+	float:left;
+	margin-top:5px;
+}
+.daohang li{
+	list-style-type:none;
+	display:inline;	
+}
+.daohang a
+{
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:15px 15px 15px 15px;
+	
+}
+.daohang a:hover
+{
+	background-color:#F00;
+	background-position:left bottom;
+	color:#FFFF00;	
+}
+.login{
+	float:right;
+	padding:20px 15px 0px 15px;	
+}
+.login a{
+	text-decoration:none;	
+	font-weight:bold;
+	color:#CCC;
+	padding:10px;
+}
+.recommend{
+	height:400px;
+	width:850px;
+	float:left;
+	overflow: auto;
+	margin-left:10px;
+	margin-top:20px;
+}
+header{
+	overflow: auto;
+	width:1340px;
+	width:auto;
+}
+.img{
+	float:left;	
+	padding:5px 0px 15px 0px;
+}
+.wenzi{
+	float:left;
+	width:350px;	
+	padding:0px 0px 10px 10px;
+}
+.music{
+	background:rgba(95,110,137,0.5);
+	height:310px;
+	width:400px;
+	margin-top:60px;
+	margin-left:900px;
+	border-radius:20px;
+	float:left:	
+}
+.list{
+	width:340px;
+	margin-left:30px;
+	margin-top:40px;
+}
+.list img{
+	border-radius:20px;	
+}
+.musicName{
+	font-weight:bold;
+	font-size:15px;
+	font-family:"华文新魏";		
+}
+#music{
+	width:70px;
+	height:40px;
+	background:rgba(255,239,0,0.5);
+	border-radius:20px;	
+	color:rgba(99,53,29,0.8);
+	font-size:25px;
+	font-family:"华文新魏";	
+}
+.button{
+	width:70px;
+	margin:40px 310px;	
+}
+.system,.system2{
+	background:rgba(0,150,141,0.6);
+	height:30px;
+	padding:10px 0px 0px 0px;
+	border-radius:20px;
+}
+.system a,.system2 a,.system3 a{
+	font-size:25px;
+	font-weight:bold;
+	color:rgba(193,213,61,1);
+	margin:10px;	
+	font-family:"华文新魏";	
+}
+.img1{
+	width:auto;
+	height:auto;
+	border:1px solid #666;
+	float:left;
+	padding:0px
+	
+}
+.img1 img{
+	padding:5px 5px 5px 5px;	
+}
+.img1 a{
+	display:block;	
+	text-align:center;
+	color:#333;
+	font-size:15px;
+}
+.menu{
+	width:auto;
+	height:auto;	
+	float:left;
+	padding:30px 20px 0px 20px;
+}
+article{
+	overflow:auto;
+	height:auto;
+	width:1100px;
+	margin:0 auto;
+}
+#button{
+	background:rgba(255,90,0,1);
+	border-radius:10px;
+	color:#FFF;
+}
+.footer-nav li{
+	list-style-type:none;
+	display:inline;	
+	padding:0px 50px 0px 0px;
+}
+.footer-nav ul{
+	width:780px;
+	margin:0 auto;	
+}
+.footer-nav a{
+	text-decoration:none;	
+}
+.xinxi{
+	text-align:center;
+	margin-top:20px;
+	height:70px;	
+}
+.xinxi a{
+	font-weight:bold;
+	font-size:17px	
+}
+.system3{
+	background:rgba(0,150,141,0.6);
+	height:30px;
+	padding:10px 0px 0px 0px;
+	border-radius:15px;
+}
+footer{
+	margin-top:40px;
+}

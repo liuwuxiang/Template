@@ -1,0 +1,92 @@
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/	
+	margin:0;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main{
+	width:1340px;
+	height:auto;	
+}
+.main1{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+}
+.main2{
+	width:1340px;
+	height:auto;	
+}
+.header{
+	width:1340px;
+	height:70px;
+	overflow: auto;
+	background:red;
+}
+.logo{
+	width:80px;	
+	float:left;
+}
+.daohang{
+	float:left;
+	margin-top:5px;
+}
+.daohang li{
+	list-style-type:none;
+	display:inline;	
+}
+.daohang a
+{
+	color:#FFF;
+	text-align:center;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration:none;
+	padding:15px 15px 15px 15px;
+	
+}
+.daohang a:hover
+{
+	background-color:#F00;
+	background-position:left bottom;
+	color:#FFFF00;	
+}
+.login{
+	float:right;
+	padding:20px 15px 0px 15px;	
+}
+.login a{
+	text-decoration:none;	
+	font-weight:bold;
+	color:#CCC;
+	padding:10px;
+}
+.seat{
+	text-align:center;
+	margin-top:70px;
+}
+.input{
+	readonly:readonly;
+	width:50px;	
+}
+li{
+list-style-type:none;
+display:inline;
+margin:25px;
+}
+.button ul{
+	width:720px;
+	margin:50px auto;	
+}
+.button{
+	text-align:center;	
+}
+.button1{
+	width:90px;
+	height:30px;
+	font-size:16px;
+	color:red;	
+}
+.main2 table{
+	width:300px;
+	margin-top:80px;	
+}

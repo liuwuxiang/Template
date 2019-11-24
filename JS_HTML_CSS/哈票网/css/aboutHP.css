@@ -1,0 +1,75 @@
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/
+}
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+}
+header{
+	background:red;	
+}
+header strong{
+	font-size:30px;	
+}
+header a{
+	text-decoration:none;
+	color:#999;	
+}
+nav{
+	float:left;	
+	margin-left:100px;
+}
+article{
+	float:left;
+	width:800px;
+	margin-left:40px;
+	margin-top:30px;	
+}
+footer{
+	clear:both;	
+}
+nav li{
+	list-style-type:none;	
+	text-align:left;
+	background:#999;
+	margin-top:8px;
+	width:180px;
+	padding:8px 8px 8px 0px;	
+	border-radius:10px;/* 	控制四角弧度 */
+}
+nav ul{
+	padding:0px 0px 0px 0px;
+}
+nav a{
+	text-decoration:none;
+	font-weight:bold;
+	font-size:19px;
+	color:#CCC;
+	height:19px;
+	margin-left:10px;
+}
+.dangqian{
+	background:rgba(139,204,0,1);	
+}
+.footer-nav li{
+	list-style-type:none;
+	display:inline;	
+	padding:0px 50px 0px 0px;
+}
+.footer-nav ul{
+	width:780px;
+	margin:0 auto;
+}
+.footer-nav a{
+	text-decoration:none;
+}
+.xinxi{
+	text-align:center;
+	margin-top:20px;
+	height:70px;	
+}
+.xinxi a{
+	font-weight:bold;
+	font-size:17px	
+}

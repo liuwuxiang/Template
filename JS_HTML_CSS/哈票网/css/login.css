@@ -1,0 +1,101 @@
+body{
+	background:rgba(0,255,0,0.4); /* css3属性*/
+}
+.main{
+	width:1340px;
+	height:auto;
+	margin:0 auto;
+	overflow: auto;
+}
+header{
+	width:1340px;
+	height:80px;
+	background-color:#C00;
+}
+header a{
+	text-decoration:none;	
+	color:#FFF;
+	font-weight:bold;
+	font-size:40px;
+	 font-family:"华文新魏";
+}
+.state a{
+	font-size:40px;
+	color:red;
+}
+.state{
+	float:right;
+	margin:0px 130px;	
+}
+.system{
+	width:auto;
+	height:50px;
+	float:left;
+	margin-left:200px;
+	margin-top:15px;
+}
+article{
+	width:1000px;
+	height:370px;
+	margin-left:240px;
+	margin-top:70px
+}
+.img img{
+		text-align:center;
+		border: 2px solid #a1a1a1;
+		padding: 5px 5px;
+		background: #dddddd;
+		border-radius:30px;/* 	控制四角弧度 */
+		box-shadow:10px 10px 5px #888888;	/* 设置阴影 */	
+}
+.img{
+	width:210px;
+	height:220px;	
+	float:left;
+	padding:10px 10px 0px 20px;	
+}
+#login{
+	width:300px;
+	height:200px;
+	float:left;	
+	margin-left:180px;
+	margin-top:18px;
+	border:solid 1px #999999;
+}
+#login table{
+	margin-top:35px;	
+}
+.button{
+	width:180px;
+	background-color:red;
+	height:30px;
+	margin-top:10px;
+}
+.text{
+	width:200px;
+	height:20px;	
+}
+.footer-nav li{
+	list-style-type:none;
+	display:inline;	
+	padding:0px 50px 0px 0px;
+}
+.footer-nav ul{
+	width:780px;
+	margin:0 auto;	
+}
+.footer-nav a{
+	text-decoration:none;	
+}
+.xinxi{
+	text-align:center;
+	margin-top:20px;
+	height:70px;	
+}
+.xinxi a{
+	font-weight:bold;
+	font-size:17px	
+}
+.footer{
+	clear:both;	
+}

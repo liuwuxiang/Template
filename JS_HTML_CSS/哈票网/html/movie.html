@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>哈票网</title>
+<link href="../css/movie.css" rel="stylesheet" type="text/css"/>
+<script src="../js/login.js"></script>
+</head>
+
+<body>
+<div class="main">
+	<div class="header">
+        	<div class="logo">
+        	<img src="../image/logo.png"/>
+            </div>
+            <div class="daohang">
+            <ul>
+            	<li class="home"><a href="index.html">首页</a></li>
+                <li><a href="movie.html" style="color:yellow">电影</a></li>
+                <li><a href="hitMovie.html">正在热映</a></li>
+                <li><a href="upcoming.html">即将上映</a></li>
+            </ul>
+            </div>
+            <div class="login">
+            	<a href="registered.html">注册</a>
+                <a href="login.html">登录</a>
+            </div>
+      </div>
+      
+      <!-- start header -->
+      <header>
+      		<div class="recommend">
+            	<div class="system2"><a>推荐</a></div>
+                <hr />
+                	<div class="img">
+                    <img src="../image/yibuzhiyao.jpg"/>
+                    </div>
+                    <div class="wenzi">
+                    	<h3>一步之遥</h3>
+                        北洋年间，东方魔都，花国大选如火如荼，各国佳丽争相斗艳，万众瞩目，全城狂欢，两届总统完颜英（舒淇 饰） 惊险连任，大选操办人马走日（姜文 饰） 因此名满……<br /><br /><br />
+                         导演：姜文<br />
+                         演员：姜文 / 葛优 / 周韵 / 舒淇 <br />
+                         单价：<font color="red">25元</font><br /><br />
+                         <input type="button" value="现在订票" onclick="ticket('一步之遥',25)"/>
+                    </div>
+                <hr style="clear:both"/>
+            </div>
+            <div class="music">
+            	<div class="system"><a>来点节奏</a></div>
+                <div class="list">
+                <audio id="audio1" loop="loop">
+	 				<source src="../music/Kwanza Jones - Time to Go.mp3" type="audio/mpeg">
+					Your browser does not support the video tag.
+				</audio>
+                <img src="../image/music.jpg"/><a class="musicName">Kwanza Jones - Time to Go</a>
+                </div>
+                <div class="button">
+                <input type="button" value="播放" id="music" onclick="playmusic()"/>
+                </div>
+            </div>
+      </header>
+      <!-- end header -->
+      
+      <!-- start article -->
+      <article>
+      		<div class="system3"><a>影票热售</a></div>
+            
+             <div class="menu">
+        		<div class="img1">
+            	<img src="../image/wazjjjj.jpg"><br/>
+           		<a><strong>微爱之渐入佳境</strong></a>
+                <a>单价：<font color="red">19元</font></a>
+                <a>导演:顾长卫</a>
+                <a>主演:杨颖</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('微爱之渐入佳境',19)"/></a>
+            	</div>
+            </div>
+            
+            <div class="menu">
+        		<div class="img1">
+            	<img src="../image/zqwhs.jpg"><br/>
+           		<a><strong>智取威虎山</strong></a>
+                <a>单价：<font color="red">16元</font></a>
+                <a>导演:徐克</a>
+                <a>主演:张涵予</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('智取威虎山',16)"/></a>
+            	</div>
+            </div>
+            
+            <div class="menu">
+        		<div class="img1">
+            	<img src="../image/ybzy.jpg"><br/>
+           		<a><strong>一步之遥</strong></a>
+                <a>单价：<font color="red">25元</font></a>
+                <a>导演:姜文</a>
+                <a>主演:姜文</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('一步之遥',25)"/></a>
+            	</div>
+            </div>
+            
+             <div class="menu">
+        		<div class="img1">
+            	<img src="../image/wdgzny.jpg"><br/>
+           		<a><strong>我的早更女友</strong></a>
+                <a>单价：<font color="red">18元</font></a>
+                <a>导演:郭在容</a>
+                <a>主演:周迅</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('我的早更女友',18)"/></a>
+            	</div>
+            </div>
+           
+           <div class="menu">
+        		<div class="img1">
+            	<img src="../image/ccnn.jpg"><br/>
+           		<a><strong>匆匆那年</strong></a>
+                <a>单价：<font color="red">20元</font></a>
+                <a>导演:张一白</a>
+                <a>主演:彭于晏</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('匆匆那年',20)"/></a>
+            	</div>
+            </div>
+            
+            <div class="menu">
+        		<div class="img1">
+            	<img src="../image/37cxn.jpg"><br/>
+           		<a><strong>37次想你</strong></a>
+                <a>单价：<font color="red">16元</font></a>
+                <a>导演:郭廷波</a>
+                <a>主演:付辛博</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('37次想你',16)"/></a>
+            	</div>
+            </div>
+            
+             <div class="menu">
+        		<div class="img1">
+            	<img src="../image/nrbkyq.jpg"><br/>
+           		<a><strong>男人不可以穷</strong></a>
+                <a>单价：<font color="red">19元</font></a>
+                <a>导演:钟澍佳</a>
+                <a>主演:黄宗泽</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('男人不可以穷',19)"/></a>
+            	</div>
+            </div>
+            
+             <div class="menu">
+        		<div class="img1">
+            	<img src="../image/anbdls.jpg"><br/>
+           		<a><strong>爱你不等来生</strong></a>
+                <a>单价：<font color="red">22元</font></a>
+                <a>导演:王安庆</a>
+                <a>主演:俞才斌</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('爱你不等来生',22)"/></a>
+            	</div>
+            </div>
+            
+            <div class="menu">
+        		<div class="img1">
+            	<img src="../image/mlhz.jpg"><br/>
+           		<a><strong>鸣梁海战</strong></a>
+                <a>单价：<font color="red">25元</font></a>
+                <a>导演:金韩民</a>
+                <a>主演:崔岷植</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('鸣梁海战',25)"/></a>
+            	</div>
+            </div>
+            
+             <div class="menu">
+        		<div class="img1">
+            	<img src="../image/hz.jpg"><br/>
+           		<a><strong>花咒</strong></a>
+                <a>单价：<font color="red">20元</font></a>
+                <a>导演:李克龙</a>
+                <a>主演:齐志</a>
+                <a><input type="button" value="现在订票" id="button" onclick="ticket('花咒',20)"/></a>
+            	</div>
+            </div>
+      </article>
+      
+      <!-- start footer -->
+       	<footer>
+        	<div class="footer-nav">
+        	<hr />
+            	<ul>
+                	<li><a href="aboutHP.html">关于哈票</a></li>
+                    <li><a href="cooperation.html">平台合作</a></li>
+                    <li><a href="service.html">客户服务</a></li>
+                    <li><a href="agreement1.html">网站服务协议</a></li>
+                    <li><a href="agreement2.html">会员服务协议</a></li>
+                    <li><a href="statment.html">免责申明</a></li>
+                </ul>
+            <hr />
+            </div>
+            <div class="xinxi">
+            	<a>客服电话：13390517636</a><br /><br />
+                <a> © 2014-2024 HaPiaoWang 版权所有</a>
+            </div>
+        </footer>
+        <!-- end footer -->
+</div>
+</body>
+</html>
+<script language="javascript">
+var mymusic=document.getElementById("audio1");
+function playmusic() {
+ 	if(mymusic.paused){
+		mymusic.play();
+		document.getElementById("music").value="暂停";
+	}
+	else{
+		mymusic.pause();
+		document.getElementById("music").value="播放";
+	}
+}
+</script>

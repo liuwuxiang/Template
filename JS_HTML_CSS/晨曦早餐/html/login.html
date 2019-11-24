@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>登录</title>
+<link href="../css/login.css" rel="stylesheet" type="text/css"/>
+<script src="../js/login.js"></script>
+</head>
+<body onload="getUserStaetCookie()">
+<div class="main">
+    	<header>
+        	<div class="system">
+        	<a href="index.html">晨曦早餐ChenXi</a>
+            </div>
+       </header>
+        
+      <article>
+        	<div class="img">
+        	<img src="../images/0.png" />
+            </div>
+             <div class="login" align="center" id="login">
+             <form onsubmit="return check(this)">
+            	<table>
+                	<tr>
+                    	<th align="left">登录名：</th>
+                    </tr>
+                    <tr>
+                    	<td><input type="text" name="name" class="text" id="name"></td>
+                    </tr>
+                    <tr>
+                    	<th align="left">登录密码：</th>
+                    </tr>
+                     <tr>
+                    	<td><input type="password" name="password" class="text" id="password"></td>
+                    </tr>
+                    <tr>
+                    	<td align="center">
+                        	<input type="submit" value="登录" class="button"/>
+                        </td>
+                    </tr>
+                </table>
+                </form>
+            </div>
+            
+            <div class="state"  style="display:none" id="tishi">
+            <a>登录成功</a>
+            </div>
+        </article>
+         <!-- start footer -->
+        	<hr color="red" align="center" width="1100px"/>
+            <footer>
+            <a>联系电话：13390510807</a><br/><br/>
+            © 2014-2024 ChenXiZaoCan 版权所有
+            </footer>
+        <!-- end footer -->
+    </div>
+</body>
+</html>

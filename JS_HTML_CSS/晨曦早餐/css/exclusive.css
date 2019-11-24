@@ -1,0 +1,13 @@
+.login-tishi{
+	position:absolute;
+	background-color:red;
+	width:1340px;
+	height:600px;
+	
+}
+.login-tishi h1{
+	text-align:center;
+}
+#password{
+	width:100%;	
+}

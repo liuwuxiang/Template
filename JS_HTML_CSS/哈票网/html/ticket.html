@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>购买影票</title>
+<link href="../css/ticket.css" rel="stylesheet" type="text/css"/>
+<script src="../js/login.js"></script>
+</head>
+
+<body onload="movie()">
+<div class="main1">
+
+	<div class="header">
+        	<div class="logo">
+        	<img src="../image/logo.png"/>
+            </div>
+            <div class="daohang">
+            <ul>
+            	<li class="home"><a href="index.html">首页</a></li>
+                <li><a href="movie.html">电影</a></li>
+                <li><a href="hitMovie.html">正在热映</a></li>
+                <li><a href="upcoming.html">即将上映</a></li>
+            </ul>
+            </div>
+            <div class="login">
+            	<a href="registered.html">注册</a>
+                <a href="login.html">登录</a>
+            </div>
+      </div>
+      
+<div class="main" id="main">
+	<h1 id="system" align="center">影票购买</h1><p></p>
+    <div class="seat">
+    	
+    	<input type="checkbox" value="一排一座" id="0" name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="一排二座" id="1" name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="一排三座" id="2" name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="一排四座" id="3"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="一排五座" id="4"  name="number" onclick="addSeat(this)"/><br /><p>
+        <input type="checkbox" value="二排一座" id="5"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排二座" id="6"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排三座" id="7"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排四座" id="8"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排五座" id="9"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排六座" id="10"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="二排七座" id="11"  name="number" onclick="addSeat(this)"/><br /><p>
+        <input type="checkbox" value="三排一座" id="12"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排二座" id="13"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排二座" id="14"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排四座" id="15"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排五座" id="16"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排六座" id="17"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排七座" id="18"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排八座" id="19"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="三排九座" id="20"  name="number" onclick="addSeat(this)"/><br /><p>
+        <input type="checkbox" value="四排一座" id="21"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排二座" id="22"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排三座" id="23"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排四座" id="24"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排五座" id="25"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排六座" id="26"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排七座" id="27"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排八座" id="28"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排九座" id="29"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排十座" id="30"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="四排十一座" id="31"  name="number" onclick="addSeat(this)"/><br /><p>
+        <input type="checkbox" value="五排一座" id="32"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排二座" id="33"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排三座" id="34"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排四座" id="35"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排五座" id="36"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排六座" id="37"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排七座" id="38"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排八座" id="39"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排九座" id="40"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排十座" id="41"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排十一座" id="42"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排十二座" id="43"  name="number" onclick="addSeat(this)"/>
+        <input type="checkbox" value="五排十三座" id="44"  name="number" onclick="addSeat(this)"/>
+        
+    </div>
+  		<div class="button">
+        	<ul>
+        		<li>已选<input type="text" value="0" id="seat" readonly class="input"/>座</li>
+                <li>合计：<input type="text" value="0" id="price" readonly class="input"/>元</li>
+                <li>单价：<input type="text" value="" id="price2" readonly class="input"/>元</li>
+                <li>电影名：<input type="text" value="" id="name" readonly class="input" style="width:100px"/></li>
+               <textarea id="seatContent" readonly style="display:none"></textarea>
+            </ul>
+            <input type="button" value="结算" class="button1" onclick="settlement()"/>
+        </div>
+</div>
+	
+    <div class="main2" id="main2"  style="display:none">
+    	<table border="1" align="center">
+        	<tr>
+            	<th colspan="2">结算</th>
+            </tr>
+            <tr>
+            	<th width="110px">电影名称:</th>
+                <td><input type="text" value="" id="name2" readonly class="input" style="width:99%; height:30px;"/></td>
+            </tr>
+            <tr>
+            	<th>电影票:</th>
+                <td> <textarea id="seatContent2" readonly cols="20" rows="7"></textarea></td>
+            </tr>
+            <tr>
+            	<th>总价:</th>
+                <td><input type="text" value="0" id="price3" readonly class="input"/>元</td>
+            </tr>
+            <tr>
+            	<th>数量：</th>
+                <td><input type="text" value="0" id="seat2" readonly class="input"/>张票</td>
+            </tr>
+            <tr>
+            	<th>支付方式:</th>
+                <td>
+                	<select name="payWay">
+                    	<option value="支付宝">支付宝</option>
+                        <option value="网银">网银</option>
+                    </select>
+                </td>
+            </tr>
+            <tr align="center">
+            	<td colspan="2">
+                	<input type="button" value="返回" id="back" onclick="pay(this)"/>
+                	<input type="submit" value="支付" id="pay" onclick="pay(this)"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.type{
+	text-align:center;
+	background-color:#CCC;
+	padding:15px 0px 15px 0px;	
+}
+.menu{
+	width:auto;
+	height:auto;
+	float:left;
+	padding:20px 18px 15px 37px;
+}
